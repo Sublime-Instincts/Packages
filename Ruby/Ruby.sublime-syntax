@@ -202,8 +202,10 @@ contexts:
       captures:
         1: punctuation.definition.constant.ruby
       push: try-regex
-    - match: '\b(nil|true|false)\b(?![?!])'
-      scope: constant.language.ruby
+    - match: '\b(nil)\b(?![?!])'
+      scope: constant.language.nil.ruby
+    - match: '\b(true|false)\b(?![?!])'
+      scope: constant.language.boolean.ruby
     - match: '\b(__(FILE|LINE|ENCODING)__|self)\b(?![?!])'
       scope: variable.language.ruby
     # hexadecimal imaginary numbers: 0xAi, 0xAri
