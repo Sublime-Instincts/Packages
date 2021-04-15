@@ -1079,7 +1079,7 @@ class ::MyModule::MyClass < MyModule::InheritedClass
 #                  ^^^^^^^^^^^^^^^^^^^^^^^^^ meta.function.parameters
 #                   ^^^^^ meta.function.parameters.default-value
 #                   ^ punctuation.separator
-#                     ^^^ constant.language.nil
+#                     ^^^ constant.language.null
 #                        ^ punctuation.separator
 #                           ^ punctuation.separator
 #                             ^^^^ constant.language.boolean

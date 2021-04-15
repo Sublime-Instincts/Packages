@@ -203,7 +203,7 @@ contexts:
         1: punctuation.definition.constant.ruby
       push: try-regex
     - match: '\b(nil)\b(?![?!])'
-      scope: constant.language.nil.ruby
+      scope: constant.language.null.ruby
     - match: '\b(true|false)\b(?![?!])'
       scope: constant.language.boolean.ruby
     - match: '\b(__(FILE|LINE|ENCODING)__|self)\b(?![?!])'
